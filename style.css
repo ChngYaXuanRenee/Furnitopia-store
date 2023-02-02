@@ -638,3 +638,22 @@ hr{
 .copyright p{
   padding: 20px;
 }
+
+
+
+
+body {
+  padding-top: 80px;
+}
+
+.show-cart li {
+  display: flex;
+}
+.card {
+  margin-bottom: 200px;
+}
+.card-img-top {
+  width: 400px;
+  height: 400px;
+  align-self: center;
+}
