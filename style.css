@@ -129,12 +129,12 @@ nav ul li:hover::after {
 
 .main-text{
   text-align: center;
-  font-size: 50px;
-
+  font-size:26px; color:#444; word-spacing:1px; font-weight:normal; letter-spacing:2px;
+  text-transform: uppercase; font-family:"Raleway", sans-serif; font-weight:90;
 }
 .secondary-text{
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
 }
 .lottiedel{
   margin-top: 30px;
@@ -153,21 +153,23 @@ nav ul li:hover::after {
 
 
 
-
-
-
-
-.qua-text-position {
-  margin-top: 160px;
-  margin-bottom: 70px;
-  margin-right: 150px;
-  margin-left: 1000px;
+.main-img2 {
+  float: right;
+  border: 100px dotted rgba(0, 0, 0, 0);
+  margin: 0px 0px 15px 20px;
+  bottom: 100;
+  right: 0;
 }
+
+
 .quality-text{
-  font-size: 50px;
+  text-align: center;
+  font-size:26px; color:#444; word-spacing:1px; font-weight:normal; letter-spacing:2px;
+  text-transform: uppercase; font-family:"Raleway", sans-serif; font-weight:90;
 }
 .quality-text2{
-  font-size: 30px;
+  text-align: center;
+  font-size: 20px;
 }
 
 
