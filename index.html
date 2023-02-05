@@ -4,538 +4,310 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-    <!-- Basic -->
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <script src="jquery-3.6.1.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-  <!-- put jquery before owl carousel -->
-  <!-- jquery -->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <!-- owl carousel -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-  <!-- slider stylesheet -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
-
-  <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-
-  <!-- fonts style -->
-  <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan|Dosis:400,600,700|Poppins:400,600,700&display=swap" rel="stylesheet" />
-
-  <link href="css/style.css" rel="stylesheet" />
-  <!-- responsive style -->
-  <link href="css/responsive.css" rel="stylesheet" />
+  <title>Simple RESTDB</title>
 
 
 
-
-
-
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
-  integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
-  integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
-  crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
-  integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
-  crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
-  integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
-  crossorigin="anonymous"></script>
-  <script src="script.js"></script>
 </head>
+<style>
+    input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
 
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
 
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
 
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+</style>
 
-<body style="background-color: #b3c6c4;">
-    <script type="text/javascript" src="script.js"></script>
-    <script src="jquery-3.6.1.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <div id="picShow">
-        <img id="img1" src="sliderpic1.png" class="active" width="1550" height="300"/>
-        <img id="img2" src="layout2.png" width="1550" height="300" />
-        <img id="img3" src="coupondesign-03.jpg" width="1550" height="300" />
-      </div>
+<body>
 
-<br>
-<div class="container">
-    <nav>
-      <ul>
-        <li>Home</li> 
-        <li>About</li>
-        <li>Services</li>
-        <li>Contact</li>
-        <li><a href="game.html">Game</a></li>  
-      </ul>
-    </nav>
-</div>
-
-
-
-<div class="nine">
-    <h1>Furnitopia<span>You imagine we build</span></h1>
-</div>
-<br>
-<br>
-<br>
-<br>
-<img class="main-img" src="roomcollage.jpg" width="700" height="700">
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<p class="main-text">--About us--</p>
-<p class="secondary-text">Furnitopia is a global brand established in 2005, with its presence in over 60 countries worldwide. Known for its creative design and stringent quality control, from design to material selection at every production stage, Furnitopia instills the highest standards in craftsmanship. With on-trend seasonal designs for living, dining, study and bedrooms, this label truly embodies the look of today.</p>
-
-<br>
-<hr>
-<br>
-<br>
-<br>
-<br>
-<img class="main-img2" src="quapic.webp" width="700" height="700">
-<hr>
-<div class="qua-text-position">
-  <br>
-  <br>
-  <br>
-  <br>
-    <p class="quality-text">quality</p>
-    <p class="quality-text2">We offer the best quality</p>
-    <p class="quality-text2">We offer the best quality</p>
-</div>
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-
-  <!-- Nav -->
-  <nav class="navbar navbar-inverse bg-inverse fixed-top bg-faded">
-    <div class="row">
-      <div class="col">
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cart">Cart (<span
-            class="total-count"></span>)</button><button class="clear-cart btn btn-danger">Clear Cart</button>
-      </div>
-    </div>
-  </nav>
-
-
-  <!-- Main -->
   <div class="container">
-    <div class="row">
-      <div class="col">
-        <div class="card" style="width: 30rem;">
-          <img class="card-img-top" src="yellowchair.png" alt="yellow chair img">
-          <div class="card-block">
-            <h4 class="card-title">Lars Chair</h4>
-            <p class="card-text">Price: $59.00</p>
-            <a href="#" data-name="LarsChair" data-price="59" class="add-to-cart btn btn-primary">Add to cart</a>
-          </div>
-        </div>
+    <h1>Log in to Furnitopia</h1>
+    <div id="add-update-msg">
+      <div class="alert alert-success" role="alert">
+        Contact record successfully added
       </div>
-      <div class="col">
-        <div class="card" style="width: 30rem;">
-          <img class="card-img-top"
-            src="chair.png"
-            alt="Card image cap">
-          <div class="card-block">
-            <h4 class="card-title">Yamile Chair</h4>
-            <p class="card-text">Price: $39.90</p>
-            <a href="#" data-name="Yamile Chair" data-price="39.90" class="add-to-cart btn btn-primary">Add to cart</a>
-          </div>
+    </div>
+    <div class="form" id="add-contact">
+      <form id="add-contact-form">
+        <div class="form-group">
+          <label for="contact-name">Name</label>
+          <input type="text" id="contact-name" class="form-control" required>
         </div>
-      </div>
-      <div class="col">
-        <div class="card" style="width: 30rem;">
-          <img class="card-img-top" src="uniquetable.png"
-            alt="Card image cap">
-          <div class="card-block">
-            <h4 class="card-title">Five-Side Table</h4>
-            <p class="card-text">Price: $184.50</p>
-            <a href="#" data-name="FiveSideTable" data-price="184.50" class="add-to-cart btn btn-primary">Add to cart</a>
-          </div>
+        <div class="form-group">
+          <label for="contact-email">Email</label>
+          <input type="email" id="contact-email" class="form-control" required>
+          <small id="contact-email-help" class="form-text text-muted">We'll never share your email with anyone
+            else.</small>
         </div>
-      </div>
-      <div class="col">
-        <div class="card" style="width: 30rem;">
-          <img class="card-img-top"
-            src="stool.png"
-            alt="Card image cap">
-          <div class="card-block">
-            <h4 class="card-title">Round Table</h4>
-            <p class="card-text">Price: $175.00</p>
-            <a href="#" data-name="RoundTable" data-price="175" class="add-to-cart btn btn-primary">Add to cart</a>
-          </div>
+        <div class="form-group">
+          <label for="contact-msg">Message</label>
+          <textarea id="contact-msg" class="form-control" required>
+          </textarea>
         </div>
-      </div>
-      <div class="col">
-        <div class="card" style="width: 30rem;">
-          <img class="card-img-top"
-            src="laddershelf.png"
-            alt="Card image cap">
-          <div class="card-block">
-            <h4 class="card-title">Ladder Book Shelf</h4>
-            <p class="card-text">Price: $499.90</p>
-            <a href="#" data-name="LadderBookShelf" data-price="499.90" class="add-to-cart btn btn-primary">Add to cart</a>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card" style="width: 30rem;">
-          <img class="card-img-top"
-            src="whiteshelf.jpg"
-            alt="Card image cap">
-          <div class="card-block">
-            <h4 class="card-title">Display Shelf</h4>
-            <p class="card-text">Price: $269.90</p>
-            <a href="#" data-name="Display Shelf" data-price="269.90" class="add-to-cart btn btn-primary">Add to cart</a>
-          </div>
-        </div>
-      </div>
+        <a href="mainpage.html">
+          <input type="button" onClick="myFunction()" value="Send" class="btn btn-primary" id="contact-submit">
+        </a>
+
+
+      </form>
     </div>
   </div>
-
-
-  <!-- Modal -->
-  <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <table class="show-cart table">
-
-          </table>
-          <div>Total price: $<span class="total-cart"></span></div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Order now</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  Hello world
-  <script src="script.js"></script>
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-      <div class="nine3">
-        <h1>Our Customers<span>We love good reviews.</span></h1>
-    </div>
-    <div class="img-slider">
-      <div class="slide active">
-        <img src="img/testimonial1.png" alt="slider pic 1">
-        <div class="info">
-          <h2>Slide 01</h2>
-          <p>I love this company so much. I was able to turn my entire bedroom into my dream place because of Apt2B. The delivery was smooth and the team were amazing. They even helped us re arrange the room because I am pregnant and cannot move much. I really love the quality of this furniture too. Overall I am very happy and will buy more and recommend them to everyone I know.</p>
-        </div>
-      </div>
-      <div class="slide">
-        <img src="layout2.png" alt="">
-        <div class="info">
-          <h2>Slide 02</h2>
-          <p>I found Furnitopia on Instagram. Im always hesitant to buy large items such as furniture online. But they got a lot of good ratings so I decided to give it a shot. It was so easy to get in touch with someone from customer service. I was able to make changes to my order easily before my couch was made. Overall the process was amazing. When I got my couch, it was so beautiful!! It’s design is sleek and modern. Comfort is wonderful. Thank you Furnitopia!!</p>
-        </div>
-      </div>
-      <div class="slide">
-        <img src="img/testimonial3.png" alt="">
-        <div class="info">
-          <h2>Slide 03</h2>
-          <p>Wow, I truly was impressed with how quickly we got our couches and how beautiful they are. I'm very pleased and would not hesitate to make another purchase with this company. Thanks for taking a daunting task like buying furniture and making it easy and fun.</p>
-        </div>
-      </div>
-      <div class="slide">
-        <img src="img/testimonial4.png" alt="">
-        <div class="info">
-          <h2>Slide 04</h2>
-          <p>As a designer, I'm always looking for products that marries functionality & aesthetic. It's so hard to find sleepers that are both gorgeous & comfortable. This one nails it! Got it in green & it is a beaut! The wood bottom makes it extra special!</p>
-        </div>
-      </div>
-      <div class="slide">
-        <img src="img/testimonial5.png" alt="">
-        <div class="info">
-          <h2>Slide 05</h2>
-          <p>This was our first time buying a piece of furniture without looking at it in person or trying it out and we were superbly impressed. It’s a solid piece of a sofa and the mustard color is gorgeous. We wanted it to be the accent color of our office/guest bedroom. Get samples first so you know what you’re buying. It comes as one piece, so it’s heavy and can be challenging to move in tight spaces. In terms of comfort, I would qualify the sofa cushion as stiff, keep that in mind. We already had another more cushy sofa, so that was not an issue. We didn’t use it as a bed yet, we bought the gel foam mattress and it looks great. I wouldn’t hesitate to recommend the purchase, knowing the above. I’ve looked at many sleeper sofas, online and in-person, and the price was appropriate for what I compare it too. Delivery was not an issue, once we agreed on day and time.</p>
-        </div>
-      </div>
-      <div class="navigation">
-        <div class="btn active"></div>
-        <div class="btn"></div>
-        <div class="btn"></div>
-        <div class="btn"></div>
-        <div class="btn"></div>
-      </div>
-    </div>
-    
-    <script type="text/javascript">
-    var slides = document.querySelectorAll('.slide');
-    var btns = document.querySelectorAll('.btn');
-    let currentSlide = 1;
-    
-    // Javascript for image slider manual navigation
-    var manualNav = function(manual){
-      slides.forEach((slide) => {
-        slide.classList.remove('active');
-    
-        btns.forEach((btn) => {
-          btn.classList.remove('active');
-        });
-      });
-    
-      slides[manual].classList.add('active');
-      btns[manual].classList.add('active');
-    }
-    
-    btns.forEach((btn, i) => {
-      btn.addEventListener("click", () => {
-        manualNav(i);
-        currentSlide = i;
-      });
-    });
-    
-    // Javascript for image slider autoplay navigation
-    var repeat = function(activeClass){
-      let active = document.getElementsByClassName('active');
-      let i = 1;
-    
-      var repeater = () => {
-        setTimeout(function(){
-          [...active].forEach((activeSlide) => {
-            activeSlide.classList.remove('active');
-          });
-    
-        slides[i].classList.add('active');
-        btns[i].classList.add('active');
-        i++;
-    
-        if(slides.length == i){
-          i = 0;
-        }
-        if(i >= slides.length){
-          return;
-        }
-        repeater();
-      }, 10000);
-      }
-      repeater();
-    }
-    repeat();
-    </script>
-    
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <section class="contact_section layout_padding">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="offset-lg-2 col-md-10 offset-md-1">
-              <div class="heading_container">
-                <hr>
-                <h2 class="text-font"><strong>
-                    Request A call back
-                </strong>
-                </h2>
-              </div>
-            </div>
-          </div>
-    
-          <div class="layout_padding2-top">
-            <div class="row">
-              <div class="col-lg-4 offset-lg-2 col-md-5 offset-md-1">
-                <form action="">
-                  <div class="contact_form-container">
-                    <div>
-                      <div>
-                        <input type="text" placeholder="Full Name" />
-                      </div>
-                      <div>
-                        <input type="email" placeholder="Email" />
-                      </div>
-                      <div>
-                        <input type="text" placeholder="Phone Number" />
-                      </div>
-                      <div>
-                        <input type="text" class="message_input" placeholder="Message" />
-                      </div>
-                      <div>
-                        <button type="submit">
-                          Send
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </form>
-              </div>
-              <p class="text-font">Find our warehouse for self-collection!</p>
-              <div class="col-md-6 px-0">
-                <div class="map_container">
-                  <div class="map-responsive">
-                    <iframe src="https://maps.google.com/maps?q=Furniture%20Club%20Holdings&t=&z=13&ie=UTF8&iwloc=&output=embed"  width="600" height="300" frameborder="0" style="border:0; width: 100%; height:100%" allowfullscreen></iframe>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- end contact section -->
-      
-    
-<br>
-<br>
-<br>
-<br>
-<!--footer-->
-<main class="main2-section">
-    
-</main>
-
-<footer class="footer-sec">
-  <div class="main2">
-    
-    
-    <div class="logo row2">
-      <div class="footer-header">
-        <img src="" class="manik" alt="">
-      </div>
-      <div class="logo-des">
-        <p>words could be added here</p>
-        
-        <a href="#" class="btn-know">Know More</a>
-      </div>
-      
-      
-    </div>
-    
-    
-    
-    <div class="office row2">
-      <div class="footer-header">
-        <h3>Office</h3>
-      </div>
-      <div class="office-des">
-        <p>here are <br> many variations<br>of furniture website<br>.</p>
-        
-       <a href="#">furnitureclub@gmail.com</a>
-        
-        <p class = "num">+95-99897329</p>
-      </div>
-    </div>
-    
-    
-    <div class="link row2">
-      <div class="footer-header">
-        <h3>Links</h3>
-      </div>
-      
-      <div class="link-des">
-        <a href="#" class="footer-links">Home</a>
-        <a href="#" class="footer-links">About</a>
-        <a href="#" class="footer-links">Services</a>
-        <a href="#" class="footer-links">Galary</a>
-        <a href="#" class="footer-links">Contact</a>
-      </div>
-    </div>
-    
-    
-    <div class="newsletter row2">
-      <div class="footer-header">
-        <h3>Newsletter</h3>
-      </div>
-      <div class="newsletter-des">
-        <div class="subcribe"><i class="sub-icon ri-mail-check-fill"></i>
-          <input type="mail" placeholder = "Enter Email ID" required>
-          <i class="sub-icon ri-arrow-right-line"></i>
-        </div>
-        <div class="icons">
-          <a href="#"><i class="social-icon ri-facebook-fill"></i></a>
-          <a href="#"><i class="social-icon ri-instagram-line"></i></a>
-          <a href="#"><i class="social-icon ri-linkedin-fill"></i></a>
-          <a href="#"><i class="social-icon ri-github-line"></i></a>
-          
-        </div>
-      </div>
-    </div>
-    
-    
-  </div>
-  <div class="copyright">
-
-
 </body>
-<script type="text/javascript" src="script.js"></script>
+  <!-- end add container -->
+<script>
+  //[STEP 0]: Make sure our document is A-OK
+$(document).ready(function() {
+  //what kind of interface we want at the start 
+  const APIKEY = "63b78a3c969f06502871ab00";
+  getContacts();
+  $("#update-contact-container").hide();
+  $("#add-update-msg").hide();
+
+  //[STEP 1]: Create our submit form listener
+  $("#contact-submit").on("click", function(e) {
+    //prevent default action of the button 
+    e.preventDefault();
+
+    //[STEP 2]: let's retrieve form data
+    //for now we assume all information is valid
+    //you are to do your own data validation
+    let contactName = $("#contact-name").val();
+    let contactEmail = $("#contact-email").val();
+    let contactMessage = $("#contact-msg").val();
+    let contactStudentid = $("#contact-studentid").val();
+    let contactStudentmentor = $("#contact-studentmentor").val();
+    let contactStudentclass = $("#contact-studentclass").val();
+
+    //[STEP 3]: get form values when user clicks on send
+    //Adapted from restdb api
+    let jsondata = {
+      "name": contactName,
+      "email": contactEmail,
+      "message": contactMessage,
+      "studentid": contactStudentid,
+      "studentmentor": contactStudentmentor,
+      "studentclass": contactStudentclass
+    };
+
+    //[STEP 4]: Create our AJAX settings. Take note of API key
+    let settings = {
+      "async": true,
+      "crossDomain": true,
+      "url": "https://interactivedev-5078.restdb.io/rest/contact",
+      "method": "POST", //[cher] we will use post to send info
+      "headers": {
+        "content-type": "application/json",
+        "x-apikey": APIKEY,
+        "cache-control": "no-cache"
+      },
+      "processData": false,
+      "data": JSON.stringify(jsondata),
+      "beforeSend": function() {
+        //@TODO use loading bar instead
+        //disable our button or show loading bar
+        $("#contact-submit").prop("disabled", true);
+        //clear our form using the form id and triggering it's reset feature
+        $("#add-contact-form").trigger("reset");
+      }
+    }
+
+    //[STEP 5]: Send our ajax request over to the DB and print response of the RESTDB storage to console.
+    $.ajax(settings).done(function(response) {
+      console.log(response);
+
+      $("#contact-submit").prop("disabled", false);
+
+      //@TODO update frontend UI 
+      $("#add-update-msg").show().fadeOut(3000);
+
+      //update our table 
+      getContacts();
+    });
+  });//end click 
 
 
-</html>
+  //[STEP] 6
+  //let's create a function to allow you to retrieve all the information in your contacts
+  //by default we only retrieve 10 results
+  function getContacts(limit = 10, all = true) {
+
+    //[STEP 7]: Create our AJAX settings
+    let settings = {
+      "async": true,
+      "crossDomain": true,
+      "url": "https://interactivedev-5078.restdb.io/rest/contact",
+      "method": "GET", //[cher] we will use GET to retrieve info
+      "headers": {
+        "content-type": "application/json",
+        "x-apikey": APIKEY,
+        "cache-control": "no-cache"
+      },
+    }
+
+    //[STEP 8]: Make our AJAX calls
+    //Once we get the response, we modify our table content by creating the content internally. We run a loop to continously add on data
+    //RESTDb/NoSql always adds in a unique id for each data, we tap on it to have our data and place it into our links 
+    $.ajax(settings).done(function(response) {
+
+      let content = "";
+
+      for (var i = 0; i < response.length && i < limit; i++) {
+        //console.log(response[i]);
+        //[METHOD 1]
+        //let's run our loop and slowly append content
+        //we can use the normal string append += method
+        /*
+        content += "<tr><td>" + response[i].name + "</td>" +
+          "<td>" + response[i].email + "</td>" +
+          "<td>" + response[i].message + "</td>
+          "<td>Del</td><td>Update</td</tr>";
+        */
+
+        //[METHOD 2]
+        //using our template literal method using backticks
+        //take note that we can't use += for template literal strings
+        //we use ${content} because -> content += content 
+        //we want to add on previous content at the same time
+        content = `${content}<tr id='${response[i]._id}'><td>${response[i].name}</td>
+        <td>${response[i].email}</td>
+        <td>${response[i].message}</td>
+        <td>${response[i].studentid}</td>
+        <td>${response[i].studentmentor}</td>
+        <td>${response[i].studentclass}</td>
+        <td><a href='#' class='delete' data-id='${response[i]._id}'>Del</a></td>
+        <td><a href='#update-contact-container' class='update' data-id='${response[i]._id}' data-msg='${response[i].message}' data-name='${response[i].name}' data-email='${response[i].email}' data-studentid='${response[i].studentid}' data-studentmentor='${response[i].studentmentor}' data-studentclass='${response[i].studentclass}'>Update</a></td></tr>`;
+
+      }
+
+      //[STEP 9]: Update our HTML content
+      //let's dump the content into our table body
+      $("#contact-list tbody").html(content);
+
+      $("#total-contacts").html(response.length);
+    });
+
+
+  }
+
+  //[STEP 10]: Create our update listener
+  //here we tap onto our previous table when we click on update
+  //this is a delegation feature of jquery
+  //because our content is dynamic in nature, we listen in on the main container which is "#contact-list". For each row we have a class .update to help us
+  $("#contact-list").on("click", ".update", function(e) {
+    e.preventDefault();
+    //update our update form values
+    let contactName = $(this).data("name");
+    let contactEmail = $(this).data("email");
+    let contactMsg = $(this).data("msg");
+    let contactStudentid = $(this).data("studentid");
+    let contactStudentmentor = $(this).data("studentmentor");
+    let contactStudentclass = $(this).data("studentclass");
+    let contactId = $(this).data("id");
+    console.log($(this).data("msg"));
+
+    $("#contact-list").on("click", ".delete", function(e) {
+      e.preventDefault();
+      let contactId = $(this).data("id"));
+    //[STEP 11]: Load in our data from the selected row and add it to our update contact form 
+    $("#update-contact-name").val(contactName);
+    $("#update-contact-email").val(contactEmail);
+    $("#update-contact-msg").val(contactMsg);
+    $("#update-contact-id").val(contactId);
+    $("#update-contact-studentid").val(contactStudentid);
+    $("#update-contact-studentmentor").val(contactStudentmentor);
+    $("#update-contact-studentclass").val(contactStudentclass);
+    $("#update-contact-container").show();
+
+  });//end contact-list listener for update function
+
+  //[STEP 12]: Here we load in our contact form data
+  //Update form listener
+  $("#update-contact-submit").on("click", function(e) {
+    e.preventDefault();
+    //retrieve all my update form values
+    let contactName = $("#update-contact-name").val();
+    let contactEmail = $("#update-contact-email").val();
+    let contactMsg = $("#update-contact-msg").val();
+    let contactId = $("#update-contact-id").val();
+    let contactStudentid = $("#update-contact-studentid").val();
+    let contactStudentmentor = $("#update-contact-studentmentor").val();
+    let contactStudentclass = $("#update-contact-studentclass").val();
+
+    console.log($("#update-contact-msg").val());
+    console.log(contactMsg);
+
+    //[STEP 12a]: We call our update form function which makes an AJAX call to our RESTDB to update the selected information
+    updateForm(contactId, contactName, contactEmail, contactMsg, contactStudentid, contactStudentmentor, contactStudentclass);
+  });//end updatecontactform listener
+
+  //[STEP 13]: function that makes an AJAX call and process it 
+  //UPDATE Based on the ID chosen
+  function updateForm(id, contactName, contactEmail, contactMsg, contactStudentid, contactStudentmentor, contactStudentclass) {
+    //@TODO create validation methods for id etc. 
+
+    $.ajax(settings).done(function(response) {
+      console.log(response);
+    });
+    var jsondata = { "name": contactName, "email": contactEmail, "message": contactMsg, "studentid": contactStudentid, "studentmentor": contactStudentmentor, "studentclass": contactStudentclass };
+    var settings = {
+      "async": true,
+      "crossDomain": true,
+      "url": `https://interactivedev-5078.restdb.io/rest/contact/${id}`,//update based on the ID
+      "method": "PUT",
+      "headers": {
+        "content-type": "application/json",
+        "x-apikey": APIKEY,
+        "cache-control": "no-cache"
+      },
+      "processData": false,
+      "data": JSON.stringify(jsondata)
+    }
+
+    //[STEP 13a]: send our AJAX request and hide the update contact form
+    $.ajax(settings).done(function(response) {
+      console.log(response);
+
+      $("#update-contact-container").fadeOut(5000);
+      //update our contacts table
+      getContacts();
+    });
+  }//end updateform function
+  var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": `https://interactivedev-5078.restdb.io/rest/contact/${id}`,
+    "method": "DELETE",
+    "headers": {
+      "content-type": "application/json",
+      "x-apikey": APIKEY,
+      "cache-control": "no-cache"
+    }
+  }
+
+
+
+})
+</script>
