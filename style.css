@@ -7,6 +7,8 @@ a:hover {
 }
 
 
+
+
 #picShow img {
   transition: opacity 1.5s linear;
   opacity: .0;
