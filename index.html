@@ -81,7 +81,7 @@
   //[STEP 0]: Make sure our document is A-OK
 $(document).ready(function() {
   //what kind of interface we want at the start 
-  const APIKEY = "63b78a3c969f06502871ab00";
+  const APIKEY = "46b78904825720e8218c6950ffe76bc56c495";
   getContacts();
   $("#update-contact-container").hide();
   $("#add-update-msg").hide();
@@ -230,7 +230,7 @@ $(document).ready(function() {
 
     $("#contact-list").on("click", ".delete", function(e) {
       e.preventDefault();
-      let contactId = $(this).data("id"));
+      let contactId = $(this).data("id");
     //[STEP 11]: Load in our data from the selected row and add it to our update contact form 
     $("#update-contact-name").val(contactName);
     $("#update-contact-email").val(contactEmail);
