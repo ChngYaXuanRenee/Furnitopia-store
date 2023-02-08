@@ -8,6 +8,18 @@
 </head>
 
 <body>
+  <div class="loader hidden">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_p8bfn5to.json" background="transparent" speed="1"
+      style="width: 300px; height: 300px;" loop autoplay></lottie-player>
+  </div>
+  <script>
+    window.addEventListener("load", function() {
+      const loader = document.querySelector(".loader");
+      loader.className += " hidden";
+    })
+  </script>
+  
     <section
       class="bg-[#F2EBE3] h-screen w-screen flex justify-center items-center"
     >
@@ -37,7 +49,7 @@
           </p>
           <div class="flex space-x-4 items-center mb-4 mt-6">
             <h2 class="text-3xl text-[#3C8067]">$59.00</h2>
-            <p class="line-through text-[#6C7289]">$59.00</p>
+            <p class="line-through text-[#6C7289]">$89.00</p>
           </div>
           <button
             class="bg-[#3C8067] text-white font-semibold flex space-x-2 w-full justify-center rounded items-center py-3"
@@ -45,7 +57,7 @@
             <svg width="15" height="16" xmlns="http://www.w3.org/2000/svg">
 
             </svg>
-            <span>Click to go to next product</span>
+            <a href="preproduct.html">Click to go to next product</a>
           </button>
         </div>
       </div>
