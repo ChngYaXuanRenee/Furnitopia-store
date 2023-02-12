@@ -586,6 +586,24 @@
   </div>
   <div class="copyright">
 
+    <title>Fireflies</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <iframe src="https://ia801508.us.archive.org/12/items/5SecondsOfSilence_201904/5-seconds-of-silence.mp3" allow="autoplay" style="display:none"></iframe>
+    <audio preload="auto" id="music">
+      <source src="https://ia601505.us.archive.org/26/items/aeriths_theme/aeriths_theme.ogg" type="audio/ogg">
+    </audio>
+    <script>
+      window.onload = function(){
+        music = document.getElementById("music");
+        music.play();
+      }
+    </script>
+    <canvas id="portrait"></canvas>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+
 
 </body>
 <script type="text/javascript" src="script.js"></script>
