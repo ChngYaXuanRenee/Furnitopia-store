@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>login page</title>
+
+</head>
+<style>
+    .nine2 h1 {
+  text-align:center; font-size:70px; text-transform:uppercase; color:#222; letter-spacing:1px;
+  font-family:"Playfair Display", serif; font-weight:300;
+}
+.nine2 h1 span {
+  margin-top: 30px;
+    font-size:30px; color:#444; word-spacing:1px; font-weight:normal; letter-spacing:2px;
+    text-transform: uppercase; font-family:"Raleway", sans-serif; font-weight:90;
+
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-template-rows: 27px 0;
+    grid-gap: 20px;
+    align-items: center;
+}
+
+.nine2 h1 span:after,.nine2 h1 span:before {
+    content: " ";
+    display: block;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    height: 7px;
+}
+
+
+.nine3 h1 {
+  text-align:center; font-size:30px; text-transform:uppercase; color:#222; letter-spacing:1px;
+  font-family:"Playfair Display", serif; font-weight:300;
+}
+.nine3 h1 span {
+  margin-top: 30px;
+    font-size:20px; color:#444; word-spacing:1px; font-weight:normal; letter-spacing:2px;
+    text-transform: uppercase; font-family:"Raleway", sans-serif; font-weight:90;
+
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-template-rows: 27px 0;
+    grid-gap: 20px;
+    align-items: center;
+}
+
+.nine3 h1 span:after,.nine3 h1 span:before {
+    content: " ";
+    display: block;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    height: 7px;
+}
+
+
+
+/* contact section */
+.contact_section {
+  position: relative;
+}
+
+.contact_section .heading_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 35px;
+}
+
+.contact_section .heading_container hr {
+  width: 20%;
+  height: 1px;
+  border: none;
+  margin: 0;
+  margin-right: 10px;
+  background-color: #b7b7b7;
+}
+
+.contact_section .heading_container h2 {
+  margin: 0;
+}
+
+.contact_section input::-webkit-input-placeholder {
+  color: #000;
+}
+
+.contact_section input:-ms-input-placeholder {
+  color: #000;
+}
+
+.contact_section input::-ms-input-placeholder {
+  color: #000;
+}
+
+.contact_section input::placeholder {
+  color: #000;
+}
+
+.contact_section input {
+  border: none;
+  outline: none;
+  height: 45px;
+  width: 45%;
+  margin: 13px 0;
+  -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
+          box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
+  padding-left: 15px;
+}
+
+.contact_section input::-webkit-input-placeholder {
+  color: #ac9784;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.contact_section input:-ms-input-placeholder {
+  color: #ac9784;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.contact_section input::-ms-input-placeholder {
+  color: #ac9784;
+  text-transform: uppercase;
+  font-size: 15px;
+  
+}
+
+.contact_section input::placeholder {
+  color: #ac9784;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.contact_section input.message_input {
+  height: 100px;
+  width: 500px;
+}
+
+.contact_form-container {
+  padding: 15px 15px 15px 0;
+}
+
+.contact_form-container button {
+  border: none;
+  background-color: #fd9e2e;
+  color: #fff;
+  padding: 10px 55px;
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-top: 35px;
+
+}
+
+.map_container {
+  height: 350px;
+  width: 1400px;
+}
+
+.map_container .map-responsive {
+  height: 100%;
+}
+
+/* contact section */
+
+</style>
+
+<body>
+    <section class="contact_section layout_padding">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="offset-lg-2 col-md-10 offset-md-1">
+              <div class="heading_container">
+                <hr>
+                <h2 class="text-font"><strong>
+                    Request A call back
+                </strong>
+                </h2>
+              </div>
+            </div>
+          </div>
+    
+          <div class="layout_padding2-top">
+            <div class="row">
+              <div class="col-lg-4 offset-lg-2 col-md-5 offset-md-1">
+                <form action="">
+                  <div class="contact_form-container">
+                    <div>
+                      <div>
+                        <input type="text" placeholder="Full Name" />
+                      </div>
+                      <div>
+                        <input type="email" placeholder="Email" />
+                      </div>
+                      <div>
+                        <input type="text" placeholder="Phone Number" />
+                      </div>
+                      <div>
+                        <input type="text" class="message_input" placeholder="Message" />
+                      </div>
+                      <div>
+                        <button type="submit">
+                          Send
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <p class="text-font">Find our warehouse for self-collection!</p>
+              <div class="col-md-6 px-0">
+                <div class="map_container">
+                  <div class="map-responsive">
+                    <iframe src="https://maps.google.com/maps?q=Furniture%20Club%20Holdings&t=&z=13&ie=UTF8&iwloc=&output=embed"  width="600" height="300" frameborder="0" style="border:0; width: 100%; height:100%" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end contact section -->
+</body>
