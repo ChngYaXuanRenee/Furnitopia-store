@@ -376,7 +376,7 @@ nav ul li:hover::after {
 
 footer{
   color: #fff;
-  background-image: linear-gradient(90deg, rgba(39,27,111,1) 0%, rgba(87,25,45,1) 100%);
+  background-image: linear-gradient(90deg, #abbee2, #baa287);
   position: relative;
   width: 100%;
   height: 100%;
@@ -385,7 +385,14 @@ footer{
   font-size: 0.8rem;
 }
 
-
+.logo-des {
+  font-size: 22px;
+  font-weight: bold;
+}
+.logo img {
+  height: 95px;
+  width: auto;
+}
 
 @media (max-width:960px) {
   footer{
@@ -486,7 +493,7 @@ footer{
   gap:10px;
 }
 .link-des a{
-  color: #fff;
+  color: rgb(54, 54, 54);
   text-decoration: none;
   font-size: 1rem;
 }
