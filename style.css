@@ -854,3 +854,7 @@ body{
 .form-container .btn:hover, .open-button:hover {
   opacity: 1;
 }
+
+.secondbg{
+  background-color: #222;
+}
