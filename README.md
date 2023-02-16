@@ -23,7 +23,7 @@ It is an e - commerce website of various types of furniture. Our main objective 
 
 5. Testimonials and reviews section - There is an animated interactive testimonial section, with slides of user's review of the store. And also a reviews section, revewing the products with star ratings, pictures and descriptions. This are features that gain users' into thinking Furnitopia is very credible and trustworthy. Developing trust is crucial for preserving enduring customer connections. Prospective consumers might feel more confident making a purchase if they are aware that there are others who have had favorable experiences with your company.
 
-6. Chat bot box - It is always located at the bottom right side of the screen. When in certain doubt while navigating through this system, the user can always use this to give questions so that they can have a better understanding of this e-commerce store. It is a very convinient and useful tool.
+6. Chat bot box - It is always located at the bottom right side of the screen. When in certain doubt while navigating through this system, the user can always use this to give questions so that they can have a better understanding of this e-commerce store. It is a very convenient and useful tool.
 
 7. Map - Use for users to navigate the map to find our warehouse, if the user do not opt for mailing. It uses Map API.
 
@@ -31,5 +31,14 @@ It is an e - commerce website of various types of furniture. Our main objective 
 
 9. Redeem Section - This redeem section is for users to use their gems to redeem free items. Because who doesnt love an e-commerce store that gives off free things. But it has a twist, the users have to play games, purchase items, reviewing items and log in to website to have increase accumulation of gems. The gems are accumulate the gain free things. The better the items value, the greater amount of gems are needed to redeem it. It is a marketing stretegy using gamification element.
 
-10. Footer section - It is not an ordinary but an extraordinary footer for Furnitopia. It is packed with informations that are nicely paragraphed and layout in the fotter section. It has a logo and brand slogan to advertise and market our brand. It also have Furnitopia contact details and office address for users that are intrested in it, and even has a place to key in email to subscribe for daily discount and promos notifications! It also has all kind of social media icons that can be clicked to be redirect to the targetted social media page. This is essential for users to be gifted daily and everywhere with out store updates and promos. Increasing scoial following to advertise brand identity.
+10. Footer section - It is not an ordinary but an extraordinary footer for Furnitopia. It is packed with informations that are nicely paragraphed and layout in the fotter section. It has a logo and brand slogan to advertise and market our brand. It also have Furnitopia contact details and office address for users that are intrested in it, and even has a place to key in email to subscribe for daily discount and promos notifications! It also has all kind of social media icons that can be clicked to be redirect to the targetted social media page. This is essential for users to be gifted daily and everywhere with out store updates and promos. Increasing social following to advertise brand identity.
 
+11. Contact section - alows users to ky in contact details (Full name, email, phone number and message) for our Furnitopia team to contact with them immediately. It also allows visitors to contact you easily without leaving their browser. They also give me the opportunity to capture leads and improve customer service.
+
+12. Responsive website - flex boxes and media queries specfically designed for all webpages size like mobile and laptop.
+
+13. Navigation bar - The navigation bar provides convenience for users to specifically navigate the place they want. Gives off ease and confort to them.
+
+14. Log in page - allows users to key in details to redirect them to their account with previous shopping data etc. 
+
+---------------------------------------------TECHNOLOGIES USED------------------------------------------------------------------------------
