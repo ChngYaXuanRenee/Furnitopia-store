@@ -42,3 +42,10 @@ It is an e - commerce website of various types of furniture. Our main objective 
 14. Log in page - allows users to key in details to redirect them to their account with previous shopping data etc. 
 
 ---------------------------------------------TECHNOLOGIES USED------------------------------------------------------------------------------
+
+1. cdnjs cloudflare ajax font-awesome - I used it for the css font for the website.
+2. Jquery pluggin OwlCarousel css - OWL Carousel is an enabled jQuery plugin that lets me create responsive carousel sliders for testimonial pictures.
+3. Jquery ajax googleapis - used for the map API, for the warehouse location in the website.
+4. fonts googleapis - used google fonts API for some parts of the website
+5. maxcdn bootstrapcdn - used to load css with javascript for the website
+
