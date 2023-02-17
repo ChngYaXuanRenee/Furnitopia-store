@@ -91,6 +91,6 @@ i. Test the back button whether it can redirect back to previous page.
 16. White shelf picture is from https://www.ikea.com/sg/en/p/bror-1-section-shelves-white-s89389083/?utm_source=google&utm_medium=surfaces&utm_campaign=shopping_feed&utm_content=free_google_shopping_clicks_Outdoor_Secondarystorage
 17. The yellow chair picture is from https://shopee.sg/product/769023/11557020718
 
-1. ACKNOWLEDGEMENTS
-2. Add to cart function credit from Codepen Chris Achinga Shopping Cart JS
-3. Black button is from W3schools
+------------------ACKNOWLEDGEMENTS------------------------
+1. Add to cart function credit from Codepen Chris Achinga Shopping Cart JS
+2. Black button is from W3schools
