@@ -4,8 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>login page</title>
-
+  <title>Contact page</title>
+  <link href="css/responsive.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan|Dosis:400,600,700|Poppins:400,600,700&display=swap" rel="stylesheet" />
 
 </head>
@@ -251,15 +252,95 @@
     width: 70%;
   }
 }
+
+
+
+div.backBtn {
+    width: 100px;
+    right: 40px;
+    top: 100px;
+    background-color: #f4f4f4;
+    transition: all 0.4s ease;
+    position: fixed;
+    cursor: pointer;
+    }
+
+    span.line {
+    bottom: auto;
+    right: auto;
+    top: auto;
+    left: auto;
+    background-color: #333;
+    border-radius: 10px;
+    width: 100%;
+    left: 0px;
+    height: 2px;
+    display: block;
+    position: absolute;
+    transition: width 0.2s ease 0.1s, left 0.2s ease, transform 0.2s ease 0.3s, background-color 0.2s ease;
+    }
+
+    span.tLine {
+    top: 0px;
+    }
+
+    span.mLine {
+    top: 13px;
+    opacity: 0;
+    }
+
+    span.bLine {
+    top: 26px;
+    }
+
+    .label {
+    position: absolute;
+    left: 0px;
+    top: 5px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.4s ease;
+    font-size: 1em;
+    }
+
+    div.backBtn:hover span.label {
+    left: 25px
+    }
+
+    div.backBtn:hover span.line {
+    left: -10px;
+    height: 5px;
+    background-color: #F76060;
+    }
+
+    div.backBtn:hover span.tLine {
+    width: 25px;
+    transform: rotate(-45deg);
+    left: -15px;
+    top: 6px;
+    }
+
+    div.backBtn:hover span.mLine {
+    opacity: 1;
+    width: 30px;
+    }
+
+    div.backBtn:hover span.bLine {
+    width: 25px;
+    transform: rotate(45deg);
+    left: -15px;
+    top: 20px;
+    }
+
+
 </style>
 
 <body>
+  <br>
+  <br>
+  <br>
+
     <section class="contact_section layout_padding">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="offset-lg-2 col-md-10 offset-md-1">
-              <div class="heading_container">
-                <hr>
                 <h2 class="text-font"><strong>
                     Request A call back
                 </strong>
@@ -318,7 +399,17 @@
           </div>
         </div>
       </section>
-      <!-- end contact section -->
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
 
+      <!-- end contact section -->
+      <a href="mainpage.html" class="w3-button w3-black" style="border: 1px solid black;">Go Home</a>
+      <br>
+      <br>
+      <br>
 </body>
 
