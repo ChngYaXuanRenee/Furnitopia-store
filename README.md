@@ -10,7 +10,7 @@ It is an e - commerce website of various types of furniture. Our main objective 
 3. RESPONSIVE - There are media queries and flex boxes sepcially design for the mobile and laptop versions. This won't miss out for the valuable mobile customers that want to see our e-commerce store. As a mobile customer, I want to browse the e-commerce through my phone, so the website has to be fully responsive for them.
 
 4. ANIMATED VISUAL ELEMENT - There will be some animated icons from lottie animations to use for the website, for example, the pre-loading screen animation. incorporating motion graphics into the designs. Making it looks pleasantly attractive and interactive. As a customer, I want a website that looks visually appealing so the website has to have animated motion graphics icons as an add on for the visually aspects.
-5. 
+
 ---------------------------------------------FEATURES------------------------------------------------------------------------------------
 
 1. 3D Immersive products - Bring products to life by showcasing them in varied environments that enable customers to visualize their usage. Full immersive shopping experience like in real life, where they can see all dimensions of the product. Engaging the younger users with a visual and interactive format they are used to from gaming and socials. 
@@ -48,4 +48,14 @@ It is an e - commerce website of various types of furniture. Our main objective 
 3. Jquery ajax googleapis - used for the map API, for the warehouse location in the website.
 4. fonts googleapis - used google fonts API for some parts of the website
 5. maxcdn bootstrapcdn - used to load css with javascript for the website
+
+---------------------------------------------TESTING------------------------------------------------------------------------------
+
+1. Request Call Back Form:
+i. Go to the "Contact" page
+ii. Try to submit the empty form and verify that an error message about the required fields appears
+iii. Try to submit the form with an invalid email address and verify that a relevant error message appears
+iv. Try to submit it successfully and there will be a message to let user know.
+
+
 
