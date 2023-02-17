@@ -52,10 +52,45 @@ It is an e - commerce website of various types of furniture. Our main objective 
 ---------------------------------------------TESTING------------------------------------------------------------------------------
 
 1. Request Call Back Form:
-i. Go to the "Contact" page
-ii. Try to submit the empty form and verify that an error message about the required fields appears
-iii. Try to submit the form with an invalid email address and verify that a relevant error message appears
+i. Go to the "Contact" page.
+ii. Try to submit the empty form and verify that an error message about the required fields appears.
+iii. Try to submit the form with an invalid email address and verify that a relevant error message appears.
 iv. Try to submit it successfully and there will be a message to let user know.
 
 
+2. Log In Form
+i. Go to the "Login" page.
+ii. Try to submit the empty form and verify that an error message about the required fields appears.
+iii. Try to submit the form with an invalid email address and verify that a relevant error message appears.
+iv. Data will be recorded.
 
+3. Navigation bar
+i. Try to see each naviagtion bar can successfully redirect to another page.
+Used to have a problem where the navigation links are coloured differently when clicked, but its fixed after i changed its css properties.
+
+4. Back button
+i. Test the back button whether it can redirect back to previous page.
+
+---------------------------------------------CREDITS------------------------------------------------------------------------------
+1. MEDIA
+1. The 2 decorative plants picture is from https://br.shein.com/2pcs-Artificial-Hanging-Vine-p-2853773-cat-3433.html
+2. The wooden chair picture is from https://www.archiproducts.com/en/products/paged/contemporary-style-open-back-wooden-chair-a-lof-4230-chair_469656
+3. The interior design with dog picture is from https://theconversation.com/australias-housing-laws-are-changing-but-do-they-go-far-enough-to-prevent-pet-abandonment-167047
+4. The ladder shelf picture is from https://www.thebasketcompany.com/household-c132/furniture-c13
+5. The slideshow layout 2 is from https://tr.pinterest.com/pin/443323157063682381/
+6. The slideshow layout 3 is from https://www.elegantinterior.info/
+7. The pillow picture is from https://peacelily.sg/products/kapok-pillow?variant=38118153846951
+8. The potted plant is from https://admin.dragonmart.ae/yonkin-artificial-plant-with-pot-105-x-32-x-215cm-green/pdp
+9. The interior design focusing yellow sofa is from https://www.progettomobile.com/catalogo/1669-lego.html
+10. The round table is from https://kavehome.com/en/en/p/glenda-round-solid-teak-wood-coffee-table-o-55-cm
+11. Testimonial 1 picture is from https://renopedia.sg/home-renovation-blog/6-electric-designs-thatll-give-your-home-an-energetic-and-vibrant-appeal/
+12. Testimonial 2 picture is from https://www.sblonginteriors.com/portfolio/shingled-colonial-home/
+13. Testimonial 3 picture is from https://mrd.com.sg/what-is-the-best-type-of-rattan-furniture/
+14. Testimonial 4 picture is from https://squarerooms.com.sg/showcase/swift-interior-tailored-mix-tiong-bahru/
+15. Five Side Table picture is from https://homestolife.com/collections/living
+16. White shelf picture is from https://www.ikea.com/sg/en/p/bror-1-section-shelves-white-s89389083/?utm_source=google&utm_medium=surfaces&utm_campaign=shopping_feed&utm_content=free_google_shopping_clicks_Outdoor_Secondarystorage
+17. The yellow chair picture is from https://shopee.sg/product/769023/11557020718
+
+------------------ACKNOWLEDGEMENTS------------------------
+1. Add to cart function credit from Codepen Chris Achinga Shopping Cart JS
+2. Black button is from W3schools
