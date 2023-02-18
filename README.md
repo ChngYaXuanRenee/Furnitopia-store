@@ -1,5 +1,7 @@
 # FURNITOPIA e-commerce
 https://ChngYaXuanRenee.github.io/Furnitopia-store/
+Front end developer - Chng Ya Xuan Renee S10242069J
+Back end developer - Teresa lai Jia Yun S10242263G
 It is an e - commerce website of various types of furniture. Our main objective is to provide users with a unique, immersive shopping experience. Making it a distinctive and different purchasing experience from other online stores. We are developing an online store that simulates a 3D in-person purchasing experience. All products have three-dimensional images that customers can examine. This e-commerce will undoubtedly generate a large amount of sales thanks to its originality, interesting experience, and numerous benefits of gamification that are thoughtfully created for users. Retailers use technology to design visually appealing interiors and exteriors for their stores, encouraging customers to appreciate their time spent shopping and in-store. Additionally, it gives merchants a better opportunity to promote their brands and provides co-branding opportunities with suppliers.
 
 -------------------------------------------DESIGN PROCESS---------------------------------------------------------------------------------
