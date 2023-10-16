@@ -1,7 +1,6 @@
 # FURNITOPIA e-commerce
 https://ChngYaXuanRenee.github.io/Furnitopia-store/
-Front end developer - Chng Ya Xuan Renee S10242069J
-Back end developer - Teresa lai Jia Yun S10242263G
+
 It is an e - commerce website of various types of furniture. Our main objective is to provide users with a unique, immersive shopping experience. Making it a distinctive and different purchasing experience from other online stores. We are developing an online store that simulates a 3D in-person purchasing experience. All products have three-dimensional images that customers can examine. This e-commerce will undoubtedly generate a large amount of sales thanks to its originality, interesting experience, and numerous benefits of gamification that are thoughtfully created for users. Retailers use technology to design visually appealing interiors and exteriors for their stores, encouraging customers to appreciate their time spent shopping and in-store. Additionally, it gives merchants a better opportunity to promote their brands and provides co-branding opportunities with suppliers.
 
 -------------------------------------------DESIGN PROCESS---------------------------------------------------------------------------------
@@ -94,6 +93,4 @@ i. Test the back button whether it can redirect back to previous page.
 16. White shelf picture is from https://www.ikea.com/sg/en/p/bror-1-section-shelves-white-s89389083/?utm_source=google&utm_medium=surfaces&utm_campaign=shopping_feed&utm_content=free_google_shopping_clicks_Outdoor_Secondarystorage
 17. The yellow chair picture is from https://shopee.sg/product/769023/11557020718
 
-------------------ACKNOWLEDGEMENTS------------------------
-1. Add to cart function credit from Codepen Chris Achinga Shopping Cart JS
-2. Black button is from W3schools
+
